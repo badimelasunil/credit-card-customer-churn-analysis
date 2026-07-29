@@ -155,7 +155,7 @@ The project contains **three interactive dashboards**.
 
 ## 1️⃣ Executive Dashboard
 
-Power BI/Executive Dashboard.png
+![Executive Dashboard](Power%20BI/Dashboards/Executive%20Dashboard.png)
 
 ### Highlights
 
