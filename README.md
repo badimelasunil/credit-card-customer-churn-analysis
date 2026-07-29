@@ -221,27 +221,65 @@ The project contains **three interactive dashboards**.
 
 ```
 Credit-Card-Customer-Churn-Analysis/
+│   .gitignore.txt
+│   BankChurners.csv
+│   LICENSE
+│   README.md
+│   requirements.txt
 │
-├── Data/
-│   ├── Raw/
-│   └── Cleaned/
+├───Data
+│   ├───Cleaned_Data
+│   │       BankChurners_Cleaned.csv
+│   │
+│   └───Raw_Data
+│           BankChurners.csv
 │
-├── Python/
+├───documentation
+├───Excel
+├───MySQL
+│       create db.sql
+│       important SQL Views.sql
+│       Load_CSV_To_MySQL.py
+│       SQL DATA ANALYSIS.sql
+│       SQL_Data_Analysis.sql
 │
-├── SQL/
+├───Power BI
+│   │   Credit Card Customer Churn Analysis (Banking).pbix
+│   │
+│   └───Dashboards
+│           Business Insights.png
+│           Customer Insights .png
+│           Executive Dashboard.png
 │
-├── Excel/
+├───Reports
+│       EDA_Report.txt
+│       Statistical_Analysis_Report.csv
 │
-├── Power BI/
-│   ├── 1_Executive_Dashboard.png
-│   ├── 2_Customer_Insights.png
-│   ├── 3_Business_Insights.png
-│   └── Credit_Card_Customer_Churn.pbix
+├───Scripts
+│   ├───Data_Cleaning_Python_code
+│   │       BankChurners.py
+│   │
+│   └───Exploratory_Data_Analysis
+│           EDA.PY
+│           EDA_Visualizations.py
+│           Statistical_Analysis.py
 │
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
+├───Statistical_Analysis
+│       Statistical_Analysis.docx
+│       Statistical_Analysis_Report.csv
+│
+└───Visualizations
+    └───Visualization
+            age_distribution.png
+            boxplot_credit_limit.png
+            card_category.png
+            churn_by_gender.png
+            churn_distribution.png
+            correlation_heatmap.png
+            credit_limit_distribution.png
+            gender_distribution.png
+            income_category.png
+            transaction_amount_distribution.png
 ```
 
 ---
