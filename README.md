@@ -172,7 +172,7 @@ Power BI/Executive Dashboard.png
 
 ## 2️⃣ Customer Insights
 
-![Customer Insights](Power%20BI/2_Customer_Insights.png)
+![Customer Insights](Power BI/Executive Dashboard.png)
 
 ### Highlights
 
