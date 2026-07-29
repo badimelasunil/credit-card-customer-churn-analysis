@@ -172,7 +172,7 @@ The project contains **three interactive dashboards**.
 
 ## 2️⃣ Customer Insights
 
-![Customer Insights](Power%20BI/Dashboards/Executive%20Dashboard.png)
+![Customer Insights](Power%20BI/Dashboards/Customer%20Insights.png)
 
 ### Highlights
 
