@@ -186,7 +186,7 @@ The project contains **three interactive dashboards**.
 
 ## 3️⃣ Business Insights
 
-![Business Insights](Power%20BI/3_Business_Insights.png)
+![Business Insights](Power%20BI/Dashboards/Business%20Insights.png)
 
 ### Highlights
 
