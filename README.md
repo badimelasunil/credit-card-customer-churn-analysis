@@ -51,34 +51,8 @@ The project demonstrates the complete Data Analyst workflow, including data clea
 ## Project Structure
 
 ```
-Credit-Card-Customer-Churn-Analysis/
-│
-├── Data/
-│   ├── Raw_Data/
-│   └── Cleaned_Data/
-│
-├── Python/
-│   ├── data_cleaning.py
-│   ├── eda.py
-│   └── statistics.py
-│
-├── PowerBI/
-│   └── Credit_Card_Churn_Dashboard.pbix
-│
-├── Reports/
-│   ├── Data_Cleaning_Report.csv
-│   ├── Statistical_Summary.csv
-│   └── Insights.pdf
-│
-├── Images/
-│   ├── Dashboard.png
-│   ├── Churn_by_Gender.png
-│   ├── Churn_by_Age.png
-│   └── Correlation_Heatmap.png
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
+<img width="1207" height="802" alt="image" src="https://github.com/user-attachments/assets/9abe6bc8-4520-4161-b56c-48b019628099" />
+
 ```
 
 ---
