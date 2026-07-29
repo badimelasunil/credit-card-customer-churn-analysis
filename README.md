@@ -155,7 +155,7 @@ The project contains **three interactive dashboards**.
 
 ## 1️⃣ Executive Dashboard
 
-![Executive Dashboard](Power%20BI/1_Executive_Dashboard.png)
+"C:\Users\SUNIL\Downloads\Badimela Sunil\Credit Card Customer Churn Analysis (Banking)\Power BI\Dashboards\Executive Dashboard.png"
 
 ### Highlights
 
