@@ -1,200 +1,305 @@
-# Credit Card Customer Churn Analysis
+# 💳 Credit Card Customer Churn Analysis
 
-## Project Overview
+An end-to-end **Data Analyst Portfolio Project** that analyzes customer churn in a bank's credit card business using **Python, SQL, Excel, and Power BI**.
 
-This project analyzes customer churn in a bank's credit card business. The objective is to identify the factors that influence customer attrition and provide actionable business insights using data analysis and interactive dashboards.
-
-The project demonstrates the complete Data Analyst workflow, including data cleaning, exploratory data analysis (EDA), statistical analysis, data visualization, and dashboard development.
+The project focuses on identifying the factors influencing customer attrition, uncovering customer behaviour patterns, and providing actionable business recommendations to improve customer retention.
 
 ---
 
-## Objectives
+# 📌 Project Overview
 
-* Understand customer churn patterns.
-* Identify factors contributing to customer attrition.
-* Perform descriptive statistical analysis.
-* Create meaningful visualizations.
-* Build an interactive Power BI dashboard.
-* Generate business recommendations for improving customer retention.
+Customer churn is one of the biggest challenges in the banking industry. Losing existing customers increases acquisition costs and directly impacts profitability.
+
+This project analyzes over **10,000 customer records** to identify churn drivers through data cleaning, exploratory data analysis, statistical analysis, SQL queries, Excel reporting, and interactive Power BI dashboards.
 
 ---
 
-## Dataset
+# 🎯 Project Objectives
 
-**Dataset:** Credit Card Customers Dataset (BankChurners)
-
-**Source:** Kaggle
-
-**Records:** 10,127
-
-**Features:** 23
-
-**Target Variable:** `Attrition_Flag`
+- Analyze customer churn behaviour.
+- Identify factors contributing to customer attrition.
+- Perform exploratory and statistical analysis.
+- Build interactive dashboards for business users.
+- Generate actionable business recommendations.
+- Demonstrate an end-to-end Data Analyst workflow.
 
 ---
 
-## Tools & Technologies
+# 📊 Dataset Information
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Power BI
-* Microsoft Excel
-* Git
-* GitHub
-* VS Code
+| Attribute | Details |
+|-----------|---------|
+| Dataset | BankChurners |
+| Source | Kaggle |
+| Records | 10,127 |
+| Features | 23 |
+| Target Variable | Attrition_Flag |
 
 ---
 
-## Project Structure
+# 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- SQL
+- Microsoft Excel
+- Power BI
+- Matplotlib
+- Seaborn
+- Git
+- GitHub
+- VS Code
+
+---
+
+# 🔄 Project Workflow
+
+```
+Raw Dataset
+      │
+      ▼
+Data Cleaning (Python)
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+Statistical Analysis
+      │
+      ▼
+SQL Analysis
+      │
+      ▼
+Excel Reporting
+      │
+      ▼
+Power BI Dashboards
+      │
+      ▼
+Business Insights & Recommendations
+```
+
+---
+
+# 🧹 Data Cleaning
+
+Performed using **Python (Pandas)**
+
+✔ Removed duplicate records
+
+✔ Checked missing values
+
+✔ Verified data types
+
+✔ Cleaned inconsistent values
+
+✔ Prepared analysis-ready dataset
+
+---
+
+# 📈 Exploratory Data Analysis
+
+Performed analysis on:
+
+- Customer Age
+- Gender
+- Education Level
+- Income Category
+- Card Category
+- Credit Limit
+- Transaction Count
+- Transaction Amount
+- Utilization Ratio
+- Customer Attrition
+- Correlation Analysis
+
+---
+
+# 📐 Statistical Analysis
+
+Calculated descriptive statistics including:
+
+- Mean
+- Median
+- Mode
+- Minimum
+- Maximum
+- Variance
+- Standard Deviation
+- Skewness
+- Kurtosis
+- Interquartile Range (IQR)
+- Outlier Detection
+
+---
+
+# 💻 SQL Analysis
+
+Performed SQL queries to analyze:
+
+- Customer segmentation
+- Churn distribution
+- Card category performance
+- Income analysis
+- Transaction behaviour
+- Customer demographics
+
+---
+
+# 📊 Power BI Dashboards
+
+The project contains **three interactive dashboards**.
+
+---
+
+## 1️⃣ Executive Dashboard
+
+![Executive Dashboard](Power%20BI/1_Executive_Dashboard.png)
+
+### Highlights
+
+- Total Customers
+- Existing Customers
+- Attrited Customers
+- Churn Rate
+- Customer Churn Distribution
+- Gender-wise Churn
+- Card Category Analysis
+- Income Category Analysis
+
+---
+
+## 2️⃣ Customer Insights
+
+![Customer Insights](Power%20BI/2_Customer_Insights.png)
+
+### Highlights
+
+- Customer Age Distribution
+- Education Level Analysis
+- Credit Limit by Card Category
+- Average Transaction Amount
+- Income-wise Customer Profile
+
+---
+
+## 3️⃣ Business Insights
+
+![Business Insights](Power%20BI/3_Business_Insights.png)
+
+### Highlights
+
+- Churn by Marital Status
+- Inactive Months vs Churn
+- Average Transaction Count by Card Category
+- Customer Churn by Utilization Group
+
+---
+
+# 🔍 Key Insights
+
+- Overall customer churn rate is **16.07%**.
+- Married and Single customers represent the largest customer segments and account for the highest number of churned customers.
+- Customers inactive for **2–4 months** have a higher likelihood of churning.
+- Platinum cardholders perform the highest average number of transactions.
+- Customers with **0–20% credit utilization** account for the largest churn segment.
+- Lower customer engagement is strongly associated with customer attrition.
+
+---
+
+# 💡 Business Recommendations
+
+- Identify inactive customers early and launch retention campaigns after two months of inactivity.
+- Increase engagement among Blue cardholders through rewards and cashback offers.
+- Encourage low-utilization customers to use their credit cards more frequently.
+- Develop targeted retention strategies for high-risk customer segments.
+
+---
+
+# 📁 Project Structure
 
 ```
 Credit-Card-Customer-Churn-Analysis/
 │
 ├── Data/
 │   ├── Raw/
-│   │   └── BankChurners.csv
 │   └── Cleaned/
-│       └── BankChurners_Cleaned.csv
 │
 ├── Python/
-│   ├── Data_Cleaning.ipynb
-│   ├── EDA.ipynb
-│   └── Statistical_Analysis.ipynb
 │
 ├── SQL/
-│   └── SQL_Queries.sql
 │
 ├── Excel/
-│   └── BankChurners_Analysis.xlsx
 │
 ├── Power BI/
-│   ├── Executive Dashboard.png
-│   ├── Customer Insights.png
-│   ├── Business Insights.png
+│   ├── 1_Executive_Dashboard.png
+│   ├── 2_Customer_Insights.png
+│   ├── 3_Business_Insights.png
 │   └── Credit_Card_Customer_Churn.pbix
 │
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
-
 ```
 
 ---
 
-## Data Cleaning
+# 🚀 How to Run
 
-* Removed duplicate records
-* Checked missing values
-* Verified data types
-* Handled inconsistent values
-* Exported cleaned dataset
+1. Clone the repository
 
----
-
-## Exploratory Data Analysis (EDA)
-
-The analysis includes:
-
-* Customer Age Distribution
-* Gender Distribution
-* Income Category Analysis
-* Education Level Analysis
-* Card Category Analysis
-* Attrition Analysis
-* Transaction Behaviour
-* Credit Limit Distribution
-* Utilization Ratio
-* Correlation Heatmap
-
----
-
-## Statistical Analysis
-
-Calculated statistics include:
-
-* Mean
-* Median
-* Mode
-* Minimum
-* Maximum
-* Variance
-* Standard Deviation
-* Skewness
-* Kurtosis
-* Interquartile Range (IQR)
-* Outlier Detection
-
----
-
-## Power BI Dashboard
-
-The interactive dashboard provides insights into:
-
-* Total Customers
-* Churned Customers
-* Active Customers
-* Churn Rate
-* Customer Demographics
-* Income Analysis
-* Card Category Performance
-* Transaction Behaviour
-* Credit Utilization
-* Customer Segmentation
-
----
-
-## Key Insights
-
-* Customers with fewer transactions are more likely to churn.
-* Lower engagement is strongly associated with customer attrition.
-* Certain card categories have higher churn rates.
-* Income level and customer age influence churn behaviour.
-* Customer retention can be improved through targeted engagement programmes.
-
----
-
-## Future Improvements
-
-* Machine Learning Churn Prediction
-* Customer Segmentation using Clustering
-* Automated ETL Pipeline
-* Real-time Dashboard
-* Predictive Analytics
-
----
-
-## Dashboard Preview
-
-> Add your Power BI dashboard screenshot here.
-
-```
-Images/Dashboard.png
+```bash
+git clone https://github.com/badimelasunil/Credit-Card-Customer-Churn-Analysis.git
 ```
 
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the Power BI `.pbix` file to explore the dashboards.
+
 ---
 
-## Author
+# 📌 Future Enhancements
+
+- Machine Learning Churn Prediction
+- Customer Segmentation using Clustering
+- Automated ETL Pipeline
+- Predictive Analytics
+- Real-Time Dashboard Integration
+
+---
+
+# 👨‍💻 Author
 
 **Badimela Sunil**
 
 Aspiring Data Analyst
 
-Skills:
+### Skills
 
-* Python
-* SQL
-* Power BI
-* Excel
-* Data Analysis
-* Data Visualization
-* Statistics
+- Python
+- SQL
+- Power BI
+- Excel
+- Statistics
+- Data Visualization
 
-GitHub:
+**GitHub**
+
 https://github.com/badimelasunil
+
+**LinkedIn**
+
+https://www.linkedin.com/in/badimela-sunil-17a8a4301/
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub!
 
 LinkedIn:
 https://www.linkedin.com/in/badimela-sunil-17a8a4301/
