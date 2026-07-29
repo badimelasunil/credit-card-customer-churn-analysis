@@ -51,7 +51,35 @@ The project demonstrates the complete Data Analyst workflow, including data clea
 ## Project Structure
 
 ```
-<img width="1207" height="802" alt="image" src="https://github.com/user-attachments/assets/9abe6bc8-4520-4161-b56c-48b019628099" />
+Credit-Card-Customer-Churn-Analysis/
+│
+├── Data/
+│   ├── Raw/
+│   │   └── BankChurners.csv
+│   └── Cleaned/
+│       └── BankChurners_Cleaned.csv
+│
+├── Python/
+│   ├── Data_Cleaning.ipynb
+│   ├── EDA.ipynb
+│   └── Statistical_Analysis.ipynb
+│
+├── SQL/
+│   └── SQL_Queries.sql
+│
+├── Excel/
+│   └── BankChurners_Analysis.xlsx
+│
+├── Power BI/
+│   ├── Executive Dashboard.png
+│   ├── Customer Insights.png
+│   ├── Business Insights.png
+│   └── Credit_Card_Customer_Churn.pbix
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
 
 ```
 
